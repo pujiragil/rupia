@@ -3,7 +3,7 @@ import SignPage from '../components/Sign'
 
 const SignIn = () => {
   return (
-    <SignPage title="SignIn" buttonText="Login Now" bottomText="Don't have an account ?" bottomLink="/signup"/>
+    <SignPage title="SignIn" buttonText="Login Now" bottomText="Don't have an account ?" bottomLink="/signup" bottomLinkText="SignUp"/>
   )
 }
 

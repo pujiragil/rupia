@@ -14,7 +14,7 @@ import {
   Image
 } from "./SectionElements"
 
-const Section = ({ id, subtitle, header, description, button, imgStart, imgLink, dark, primary, light }) => {
+const Section = ({ id, subtitle, header, description, button, to, imgStart, imgLink, dark, primary, light }) => {
   return (
     <Element name={id}>
       <Sec dark={dark}>
@@ -25,7 +25,7 @@ const Section = ({ id, subtitle, header, description, button, imgStart, imgLink,
                 <Subtitle>{subtitle}</Subtitle>
                 <Header dark={dark}>{header}</Header>
                 <Description dark={dark}>{description}</Description>
-                <Button primary={primary ? 1 : 0} light={light ? 1 : 0} to='about'>{button}</Button>
+                <Button primary={primary ? 1 : 0} light={light ? 1 : 0} smooth={true} spy={true} offset={-35} duration={500} to={to}>{button}</Button>
               </TextWrap>
             </Column1>
             <Column2>

@@ -15,8 +15,8 @@ const HeroComponents = ({ id }) => {
         <HeroHeading>Investasi Keuangan Anda Sekarang</HeroHeading>
         <HeroText>Rupia adalah tempat judi slot terbaik dengan depo minimal 0 rupiah.</HeroText>
         <HeroBtnWrapper>
-          <HeroButton smooth={true} spy={true} offset={-50} duration={500} to='profile'>Dapatkan Percobaan</HeroButton>
-          <HeroButton smooth={true} spy={true} offset={-50} duration={500} to='blog' primary="true">Deposit Sekarang</HeroButton>
+          <HeroButton smooth={true} spy={true} offset={-30} duration={500} to='profile'>Dapatkan Percobaan</HeroButton>
+          <HeroButton smooth={true} spy={true} offset={-30} duration={500} to='blog' primary="true">Deposit Sekarang</HeroButton>
         </HeroBtnWrapper>
       </HeroContainer>
     </Hero>

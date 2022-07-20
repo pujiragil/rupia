@@ -20,7 +20,7 @@ export const SecContainer = styled.div`
 
   @media screen and (max-width: 599px) {
     /* max-height: 100vh; */
-    height: 92vh;
+    height: 95vh;
   }
 `
 

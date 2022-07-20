@@ -14,7 +14,7 @@ import {
   FormLink
 } from './SignElements'
 
-const SignPage = ({ title, buttonText, bottomText, bottomLink }) => {
+const SignPage = ({ title, buttonText, bottomText, bottomLink, bottomLinkText }) => {
   return (
     <>
       <Container>
@@ -28,7 +28,7 @@ const SignPage = ({ title, buttonText, bottomText, bottomLink }) => {
               <FormLabel>Password</FormLabel>
               <FormInput type={'password'} placeholder="Password..."/>
               <FormButton type={'submit'} value={buttonText}/>
-              <FormText>{bottomText} <FormLink to={bottomLink}>SignIn</FormLink></FormText>
+              <FormText>{bottomText} <FormLink to={bottomLink}>{bottomLinkText}</FormLink></FormText>
             </Form>
           </FormContent>
         </SignWrapper>
