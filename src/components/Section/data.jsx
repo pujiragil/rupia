@@ -4,10 +4,10 @@ import image3 from '../../images/img-3.svg'
 
 export const obj1 = {
   id: 'about',
-  subtitle: 'who we are',
-  header: 'Mentor For Your Finances',
-  description: 'We are a company engaged in the financial field that will help you in managing your finance.',
-  button: 'See More',
+  subtitle: 'siapa kami',
+  header: 'Kamipun Tidak Tahu Siapa Kami Sendiri',
+  description: 'Kami adalah organisasi yang bergerak di bidang kemanusiaan.',
+  button: 'Sawer Kami',
   imgStart: false,
   imgLink: image1,
   dark: false,
@@ -17,10 +17,10 @@ export const obj1 = {
 
 export const obj2 = {
   id: 'blog',
-  subtitle: 'work smart',
-  header: 'Get Your Financial Freedom',
-  description: 'Read our article that will help you in overcoming financial problems.',
-  button: 'Check Now',
+  subtitle: 'kenali kami',
+  header: 'Hayuk Kenalan Dengan Kami',
+  description: 'Kenali kami lebih dekat dan jalin hubungan badan dengan kami.',
+  button: 'Hubungi Kami',
   imgStart: true,
   imgLink: image3,
   dark: true,
@@ -30,10 +30,10 @@ export const obj2 = {
 
 export const obj3 = {
   id: 'profile',
-  subtitle: 'Get Relation',
-  header: 'Get to Know Us More Closely',
-  description: 'Check our profile to know more about us and be part of us. Remember relationship are important.',
-  button: 'Makan Bang',
+  subtitle: 'profile kami',
+  header: 'Partai Banteng Adalah Kami',
+  description: 'Jiwa kami selalu membanteng dan akan selamanya membanteng.',
+  button: 'Bubarkan PDIP',
   imgStart: false,
   imgLink: image2,
   dark: true,

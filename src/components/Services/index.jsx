@@ -22,7 +22,7 @@ const Services = ({ id }) => {
     <Service id={id}>
       <ServiceContainer>
         <ServiceTextWrap>
-          <Subtitle>our services</Subtitle>
+          <Subtitle>layanan kami</Subtitle>
           <ServiceHeader>Services</ServiceHeader>
         </ServiceTextWrap>
         <ServiceWrapper>
@@ -31,8 +31,8 @@ const Services = ({ id }) => {
               <Img src={image4}/>
             </ImgWrap>
             <TextWrap>
-              <Header>Using AI</Header>
-              <Text>We are using AI power to manage our system with best performance.</Text>
+              <Header>Kecerdasan AI</Header>
+              <Text>Kami menggunakan AI untuk mengatur sistem slot</Text>
             </TextWrap>
           </ServiceCard>
           <ServiceCard>
@@ -40,8 +40,8 @@ const Services = ({ id }) => {
               <Img src={image5}/>
             </ImgWrap>
             <TextWrap>
-              <Header>Profesional Mentor</Header>
-              <Text>Profesional mentor who will assist you in managing your finance.</Text>
+              <Header>Mentor Berpengalaman</Header>
+              <Text>Mentor profesional yang akan membantu anda</Text>
             </TextWrap>
           </ServiceCard>
           <ServiceCard>
@@ -49,8 +49,8 @@ const Services = ({ id }) => {
               <Img src={image6}/>
             </ImgWrap>
             <TextWrap>
-              <Header>Security System</Header>
-              <Text>Security system that is secure and assisted by artifical intelligence.</Text>
+              <Header>Keamanan Sistem</Header>
+              <Text>Menggunakan sistem keamanan yang selalu membanteng</Text>
             </TextWrap>
           </ServiceCard>
         </ServiceWrapper>

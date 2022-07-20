@@ -12,11 +12,11 @@ const HeroComponents = ({ id }) => {
   return (
     <Hero id={id}>
       <HeroContainer>
-        <HeroHeading>Manage Your Financial Now</HeroHeading>
-        <HeroText>Rupia gives you the best experience with all the features you need for financial and all this is free.</HeroText>
+        <HeroHeading>Investasi Keuangan Anda Sekarang</HeroHeading>
+        <HeroText>Rupia adalah tempat judi slot terbaik dengan depo minimal 0 rupiah.</HeroText>
         <HeroBtnWrapper>
-          <HeroButton to='profile'>Makan Bang</HeroButton>
-          <HeroButton to='about' primary="true">Makan Bang</HeroButton>
+          <HeroButton smooth={true} spy={true} offset={-50} duration={500} to='profile'>Dapatkan Percobaan</HeroButton>
+          <HeroButton smooth={true} spy={true} offset={-50} duration={500} to='blog' primary="true">Deposit Sekarang</HeroButton>
         </HeroBtnWrapper>
       </HeroContainer>
     </Hero>
